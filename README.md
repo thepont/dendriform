@@ -29,7 +29,7 @@ function MyComponent(props) {
             {name: 'Spike'},
             {name: 'Spoke'}
         ]
-    });
+    }));
 
     // subscribe to form value changes
     form.useChange((value) => {
